@@ -1,0 +1,91 @@
+body {
+    background: #fafafa;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: 'Oswald', sans-serif;
+    color: #222222;
+
+    #backdrop{
+        background: rgba($black, 0.8);
+        display: none;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 11;
+
+        .close{
+            background: rgba($black, 0);
+            border: none;
+            cursor: pointer;
+            width: 70px;
+            min-width: 70px;
+            max-width: 70px;
+            height: 70px;
+            min-height: 70px;
+            max-height: 70px;
+            padding: 10px 12px;
+            opacity: 1;
+            transition: all 0.1s linear;
+
+            &:before, &:after{
+                background-color: $white;
+                border-radius: 3px;
+                content: "";
+                display: block;
+                height: 3px;
+                margin: 3px 0;
+                width: 100%;
+            }
+            &:before{
+                transform: translateY(4px) rotate(135deg);
+            }
+            &:after{
+                transform: translateY(-2px) rotate(-135deg);
+            }
+
+            &:hover{
+                background: $red;
+            }
+        }
+
+        &.cart-opened{
+            display: block;
+            z-index: 11;
+        }
+    }
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+button,
+input,
+select,
+textarea{
+    font: inherit;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+a{
+    color: $black;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1176px;
+    margin-left: auto;
+    margin-right: auto;
+
+    @media (min-width: 900px) {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+}

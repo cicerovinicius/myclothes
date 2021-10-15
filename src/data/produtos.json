@@ -1,0 +1,112 @@
+{
+	"produtos": [
+		{
+			"id":1,
+			"name":"Is This The Real Life Coding Programming",
+			"description":"Camiseta 100% algodão nas cores branco, preto e cinza",
+			"price":"56",
+			"image": "https://ih1.redbubble.net/image.2137345078.3003/ssrco,classic_tee,womens,101010:01c5ca27c6,front_alt,square_product,600x600.u3.jpg",
+			"image2": "https://ih1.redbubble.net/image.1489568881.3003/gptr,1400x,front,black-c,188,133,1000,1000-bg,f8f8f8.u3.jpg",
+			"available":true
+		},
+		{
+			"id":2,
+			"name":"Lorem ipsum dolor sit amet",
+			"description":"Camiseta 100% algodão nas cores branco e preto",
+			"price":"25",
+			"image": "https://ih1.redbubble.net/image.1816236413.9305/ssrco,classic_tee,womens,fafafa:ca443f4786,front_alt,square_product,600x600.jpg",
+			"image2": "https://ih1.redbubble.net/image.1816244877.9534/ssrco,classic_tee,womens,101010:01c5ca27c6,front_alt,square_product,600x600.jpg",
+			"available":true
+		},
+		{
+			"id":3,
+			"name":"Epstein Didn't Kill Himself",
+			"description":"Camiseta Regata em referência a um viral de teoria da conspiração",
+			"price":"150",
+			"image": "https://cdn.shopify.com/s/files/1/0177/9993/8102/products/epstein-didnt-kill-himself-tank-top-the-meme-store-black-xs-447435_large@2x.progressive.jpg?v=1574056918",
+			"image2": "https://cdn.shopify.com/s/files/1/0177/9993/8102/products/epstein-didnt-kill-himself-tank-top-the-meme-store-athletic-heather-xs-312581.jpg?v=1574056958",
+			"available":true
+		},
+		{
+			"id":4,
+			"name":"Not Fast, Not Furious",
+			"description":"Camiseta Sem pressa, sem furia na cor verde, preta e branca",
+			"price":"5",
+			"image": "https://ih1.redbubble.net/image.1807664089.5775/ssrco,classic_tee,mens,026541:3d4e1a7dce,front_alt,square_product,600x600.u2.jpg",
+			"image2": "https://ih1.redbubble.net/image.1807664089.5775/ssrco,active_tshirt,mens,101010:01c5ca27c6,front,square_three_quarter,1000x1000.u2.jpg",
+			"available":true
+		},
+		{
+			"id":5,
+			"name":"NO.",
+			"description":"Camiseta babylook nas cores rosa, preta e branca",
+			"price":"21",
+			"image": "https://ih1.redbubble.net/image.118093279.7679/ra,womens_tshirt,x1860,f21f60:de07204a77,front-c,324,363,600,600-bg,f8f8f8.jpg",
+			"image2": "https://ih1.redbubble.net/image.118093279.7679/ra,womens_tshirt,x1900,101010:01c5ca27c6,front-c,140,125,1000,1000-bg,f8f8f8.jpg",
+			"available":true
+		},
+		{
+			"id":6,
+			"name":"Brabo",
+			"description":"Moletom flanelado nas cores preto, azul, vermelho e cinza",
+			"price":"35",
+			"image": "https://d3ugyf2ht6aenh.cloudfront.net/stores/974/635/products/moletom-preto-masculino-brabo1-a2377ee8872e70dc7116164311306180-240-0.png",
+			"image2": "https://d3ugyf2ht6aenh.cloudfront.net/stores/974/635/products/moletom-preto-feminino-brabo1-b4c61f4a466b3120f116164311306046-320-0.png",
+			"available":true
+		},
+		{
+			"id":7,
+			"name":"LG - Mother Monster",
+			"description":"Camiseta com estampa desenhada da Lady Gaga, padrão e babylook",
+			"price":"15",
+			"image": "https://d3ugyf2ht6aenh.cloudfront.net/stores/974/635/products/modelo-1-b8a1d72884e752536f15614740480527-240-0.jpg",
+			"image2": "https://d3ugyf2ht6aenh.cloudfront.net/stores/974/635/products/lady-gaga1-6116eb7f1689d1cc7115632119070421-320-0.png",
+			"available":true
+		},
+		{
+			"id":8,
+			"name":"Peace Was Never An Option Hoodie",
+			"description":"Casaco 100% algodão nas cores azul, preto, branco e cinza",
+			"price":"20",
+			"image": "https://dankest.co/wp-content/uploads/2021/05/Untitled-1-6-500x500.jpg",
+			"image2": "https://dankest.co/wp-content/uploads/2021/05/mockup-70f9374f-680x680.jpg",
+			"available":true
+		},
+		{
+			"id":9,
+			"name":"Lorem Ipsum",
+			"description":"Camiseta manga longa nas cores azul, preto, branco e cinza",
+			"price":"30",
+			"image": "https://ih1.redbubble.net/image.1898793414.2845/ssrco,lightweight_sweatshirt,womens,black_lightweight_raglan_sweatshirt,front,square_product,x600-bg,f8f8f8.1.jpg",
+			"image2": "https://ih1.redbubble.net/image.1898793414.2845/ra,sweatshirt,x1850,101010:01c5ca27c6,front-c,105,45,1000,1000-bg,f8f8f8.jpg",
+			"available":true
+		},
+		{
+			"id":10,
+			"name":"Six-Pack Unicorn",
+			"description":"Camiseta branca com estampa de unicórnio e Six-pack em referência ao tanquinho",
+			"price":"23",
+			"image": "https://ih1.redbubble.net/image.2327094313.9253/ssrco,classic_tee,mens,fafafa:ca443f4786,front_alt,square_product,600x600.jpg",
+			"image2": "https://ih1.redbubble.net/image.2327094313.9253/ssrco,classic_tee,two_models,fafafa:ca443f4786,front,square_three_quarter,1000x1000.jpg",
+			"available":true
+		},
+		{
+			"id":11,
+			"name":"NOT TODAY SATAN",
+			"description":"Camiseta 90% algodão e 10% poliéster, nas cores preto, branco e cinza",
+			"price":"52",
+			"image": "https://ih1.redbubble.net/image.1124640196.3912/ssrco,classic_tee,mens,101010:01c5ca27c6,front_alt,square_product,600x600.u2.jpg",
+			"image2": "https://ih1.redbubble.net/image.1124640173.3912/gptr,1400x,front,black-c,188,133,1000,1000-bg,f8f8f8.u3.jpg",
+			"available":true
+		},
+		{
+			"id":12,
+			"name":"Raul Mostarda",
+			"description":"Camiseta amarelo mostarda com estampa do Raul Seixas em formato de caveira",
+			"price":"300",
+			"image": "https://d3ugyf2ht6aenh.cloudfront.net/stores/974/635/products/2-a3fb4517a5513eb64215614736662856-320-0.png",
+			"image2": "https://d3ugyf2ht6aenh.cloudfront.net/stores/974/635/products/1-81f6898d32c42c593f15614736552012-240-0.png",
+			"available":true
+		}
+	]
+}

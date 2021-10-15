@@ -1,0 +1,96 @@
+.topo{
+    background: $white;
+    border-bottom: 1px solid #ececec;
+    padding: 15px;
+    margin-bottom: 15px;
+    
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 0 30px;
+        position: relative;
+    }
+
+    .logo{
+        display: block;
+        width: 90px;
+
+        img{
+            max-width: 100%;
+        }
+    }
+    
+    .cart{
+        background: $white;
+        height: 50px;
+        width: 50px;
+        margin: auto;
+        right: 30px;
+        top: 0;
+        bottom: 0;
+        
+        .icon{
+            img{
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                margin: auto;
+                z-index: 1;
+                width: 100%;
+    
+                &.img-before{
+                    opacity: 0;
+                }
+                &.img-after{
+                    opacity: 1;
+                }
+            }
+        }
+        .number{
+            background: black;
+            color: white;
+            border-radius: 100%;
+            z-index: 3;
+            position: relative;
+            width: 25px;
+            height: 25px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            right: -6px;
+            top: 14px;
+        }
+
+        &.add-product{
+            .icon{
+                img{
+                    &.img-before{
+                        opacity: 1;
+                    }
+                    &.img-after{
+                        opacity: 0;
+                    }
+                }
+            }
+        }
+        
+        &, &:before, &:after{
+            position: absolute;
+        }
+    }
+
+    @media(max-width: 991px){
+        padding: 8px 12px;
+
+        .container{
+            padding: 0;
+        }
+        .logo{
+            width: 80px;
+        }
+    }
+}

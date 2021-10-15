@@ -1,0 +1,66 @@
+.btn{
+    border: none;
+    cursor: pointer;
+    outline: none !important;
+    box-shadow: none !important;
+    transition: all 0.2s ease-in-out;
+}
+
+.btn-green, .btn-red, 
+.btn-black-line, .btn-red-line, .btn-gray{
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 0.9em;
+    line-height: 2em;
+    padding: 8px 30px;
+    text-align: center;
+
+    &, &:hover{
+        color: $white;
+    }
+}
+
+.btn-black-line{
+    background: $white;
+    border: 2px solid $black;
+    border-radius: 0px;
+    color: $black;
+    font-weight: 600;
+
+    &:hover{
+        background: $black;
+        color: $white;
+    }
+}
+.btn-red-line{
+    background: $white;
+    border: 2px solid $red;
+    border-radius: 0px;
+    color: $red;
+    font-weight: 600;
+
+    &:hover{
+        background: $red;
+        color: $white;
+    }
+}
+.btn-gray{
+    border: 2px solid #d2d2d2;
+    background: #e7e7e7;
+    color: $black;
+    font-weight: 600;
+}
+
+.btn-green{
+    background: #59cd3c;
+    &:hover{
+        background: #2bad30;
+    }
+}
+
+.btn-red{
+    background: $red;
+    &:hover{
+        background: $red2;
+    }
+}
