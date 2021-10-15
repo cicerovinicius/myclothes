@@ -2,6 +2,8 @@
 
 > Carrinho de compras para loja de roupas (em Vue.js)
 
+Disponível também no: [codesandbox](https://codesandbox.io/s/autumn-brook-sce9w?file=/index.html)
+
 ## Build Setup
 
 ``` bash
